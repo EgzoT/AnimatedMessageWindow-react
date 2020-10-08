@@ -1,0 +1,9 @@
+{
+    "name": "animated-message-window",
+    "version": "0.1.0",
+    "dependencies": {
+      "react": "^16.12.0",
+      "react-dom": "^16.12.0",
+      "react-scripts": "3.4.0"
+    }
+}
