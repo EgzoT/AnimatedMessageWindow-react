@@ -2,11 +2,11 @@
 
 # Demo
 
-TODO
+https://egzot.github.io/AnimatedMessageWindow-react/
 
 # Example usage
 
-TODO
+https://github.com/EgzoT/AnimatedMessageWindow-react/tree/example
 
 # Usage
 
