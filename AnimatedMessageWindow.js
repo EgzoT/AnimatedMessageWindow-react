@@ -153,7 +153,10 @@ class AnimatedMessageWindow extends React.Component {
             marginTop: 'calc(' + (Number.isInteger(this.headHeightStyle) ? this.headHeightStyle + 'px' : this.headHeightStyle) + ' / 2)',
             marginBottom: 'auto',
             marginLeft: 'auto',
-            marginRight: 'auto'
+            marginRight: 'auto',
+            display: 'flex',
+            width: '100%',
+            height: 'calc(100% - ' + (Number.isInteger(this.headHeightStyle) ? this.headHeightStyle + 'px' : this.headHeightStyle) + ')'
         }
 
         style = { ...style, ...this.fullStyle['subContainerStyle'] }
