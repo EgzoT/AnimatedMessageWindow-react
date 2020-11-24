@@ -175,7 +175,9 @@ class AnimatedMessageWindow extends React.Component {
     }
 
     componentDidUpdate(prevProps, prevState) {
-        if (!this.state.animationEnd) {
+        if (prevProps.show === false && this.props.show === false) {
+            //Nothing
+        } else if (!this.state.animationEnd) {
             if (prevState.animationStart === false) {
                 clearTimeout(this.animationTimeout);
                 this.animationTimeout = setTimeout(() => {
