@@ -39,7 +39,7 @@ class AnimatedMessageWindow extends React.Component {
 
     getMainContainerStyle = () => {
         let style =  {
-            position: 'absolute',
+            position: 'fixed',
             textAlign: 'center',
             transform: 'translate(-50%, -50%)',
             left: '50%',
